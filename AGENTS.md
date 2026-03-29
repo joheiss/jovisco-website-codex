@@ -11,6 +11,8 @@ All text on the pages is in German by default. There is a UI control (button, li
 - For component / unit testing Vitetest should be used.
 - For end-to-end testing Playwright is selected.
 
+The website must be responsive.
+
 ## Site Map
 
 Build a new JOVISCO website, consisting of:
@@ -18,6 +20,13 @@ Build a new JOVISCO website, consisting of:
 - a one-pager that contains the main content,
 - a separate Contact page (Kontakt in German),
 - a separate Legal Notice page (Impressum in German).
+
+## Page Structure
+
+- Each page consists of a header and a footer.
+- The footer contains the links to the legal notice page and the contact page.
+- The header contains the logo as in file ./assets/img/originals/jovisco_logo_183x50.png in a size that is recommendable.
+- The footer contains the logo as in file ./assets/img/originals/jovisco_nur_logo_klein_transparent.png.
 
 ## Logos and Colour
 
@@ -29,4 +38,3 @@ The website should exist with 4 different color schemes:
 - metal: a blueish scheme which looks like metallic.
 
 Fitting logos must be created for the different color scheme.
-

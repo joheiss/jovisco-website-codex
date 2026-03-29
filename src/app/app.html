@@ -1,0 +1,81 @@
+<div class="flex min-h-screen flex-col bg-slate-100 text-slate-950">
+  <header class="sticky top-0 z-50 border-b border-slate-300 bg-white/95 backdrop-blur">
+    <div
+      class="mx-auto flex max-w-5xl flex-col gap-4 px-4 py-4 sm:px-6 md:flex-row md:items-center md:justify-between md:gap-6"
+    >
+      <div class="mx-auto w-fit md:mx-0">
+        <img
+          src="assets/img/jovisco_logo_header_large.png"
+          alt="JOVISCO Logo"
+          class="h-auto w-72 sm:w-80"
+        />
+      </div>
+
+      <nav aria-label="Hauptnavigation" class="w-full md:w-auto">
+        <ul
+          class="flex w-full flex-col gap-2 text-sm font-medium sm:flex-row sm:flex-wrap sm:justify-center md:w-auto md:justify-end"
+        >
+          <li>
+            <a
+              routerLink="/kontakt"
+              routerLinkActive="is-active"
+              class="block rounded-full px-4 py-2 text-center text-slate-700 transition hover:bg-slate-200 hover:text-slate-950"
+            >
+              Kontakt
+            </a>
+          </li>
+          <li>
+            <a
+              routerLink="/impressum"
+              routerLinkActive="is-active"
+              class="block rounded-full px-4 py-2 text-center text-slate-700 transition hover:bg-slate-200 hover:text-slate-950"
+            >
+              Impressum
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main
+    class="mx-auto flex w-full max-w-5xl flex-1 px-4 py-6 sm:px-6 sm:py-10 lg:py-12"
+  >
+    <router-outlet />
+  </main>
+
+  <footer class="border-t border-slate-300 bg-white">
+    <div
+      class="mx-auto flex max-w-5xl flex-col items-center justify-between gap-6 px-4 py-6 sm:px-6 md:flex-row"
+    >
+      <img
+        src="assets/img/originals/jovisco_nur_logo_klein_transparent.png"
+        alt="JOVISCO Signet"
+        class="h-12 w-auto"
+      />
+
+      <nav aria-label="Footer-Navigation" class="w-full md:w-auto">
+        <ul
+          class="flex w-full flex-col gap-2 text-sm font-medium sm:flex-row sm:justify-center md:w-auto"
+        >
+          <li>
+            <a
+              routerLink="/kontakt"
+              class="block rounded-full px-4 py-2 text-center text-slate-700 transition hover:bg-slate-200 hover:text-slate-950"
+            >
+              Kontakt
+            </a>
+          </li>
+          <li>
+            <a
+              routerLink="/impressum"
+              class="block rounded-full px-4 py-2 text-center text-slate-700 transition hover:bg-slate-200 hover:text-slate-950"
+            >
+              Impressum
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+</div>

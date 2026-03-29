@@ -1,0 +1,8 @@
+:host {
+  display: block;
+}
+
+header a.is-active {
+  background-color: rgb(15 23 42);
+  color: rgb(248 250 252);
+}
